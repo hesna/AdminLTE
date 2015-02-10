@@ -18,6 +18,26 @@
     margin-right: 0;
     margin-left: 5px;
 }
+.sidebar-collapse .main-sidebar, .sidebar-collapse .left-side {
+    transform: translate(230px, 0px);
+}
+.navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 {
+    margin: 0 45px 0 0;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > p {
+    margin: 0 45px 0 0;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > div > img {
+    margin: auto auto auto 10px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 > small {
+    right: auto;
+    left: 0;
+}
 
 /* MAIN SIDEBAR */
 .main-sidebar, .left-side {
@@ -62,10 +82,29 @@
     padding-left: 0;
     padding-right: 20px;
 }
+.sidebar-collapse .content-wrapper, .sidebar-collapse .right-side, .sidebar-collapse .main-footer {
+    margin-left: auto;
+    margin-right: 0;
+}
 
 /* CONTENT WRAPPER */
 .content-wrapper, .right-side, .main-footer {
     margin-right: 230px;
     margin-left: 0;
     transition: margin-right 0.3s ease 0s;
+}
+.content-header > .breadcrumb {
+    float: left;
+    right: auto;
+    left: 10px;
+}
+.content-header > .breadcrumb > li > a > .fa, .content-header > .breadcrumb > li > a > .glyphicon, .content-header > .breadcrumb > li > a > .ion {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* BOX */
+.box-header > .box-tools {
+    right: auto;
+    left: 10px;
 }
