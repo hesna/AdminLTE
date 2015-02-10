@@ -1,0 +1,71 @@
+/* HEADER */
+.main-header .logo {
+    float: right;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.main-header > .navbar {
+    margin-left: 0;
+    margin-right: 230px;
+}
+.main-header .sidebar-toggle {
+    float: right;
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: left;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* MAIN SIDEBAR */
+.main-sidebar, .left-side {
+    left: auto;
+    right: 0;
+}
+.user-panel > .info {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 15px 5px 5px;
+}
+.user-panel > .info > a {
+    padding-right: 0;
+    padding-left: 5px;
+}
+.user-panel > .info > a > .fa, .user-panel > .info > a > .ion, .user-panel > .info > a > .glyphicon {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.sidebar-menu li.header {
+    font-size: 12px;
+    padding: 10px 25px 10px 15px;
+}
+.sidebar-menu li > a > .fa-angle-left {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.sidebar-menu > li > a {
+    padding: 12px 15px 12px 5px;
+}
+.sidebar-menu .treeview-menu {
+    padding: 0 5px 0 0;
+}
+.sidebar-menu .treeview-menu > li > a {
+    padding: 5px 15px 5px 5px;
+}
+.sidebar-menu > li .label, .sidebar-menu > li .badge {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.sidebar-menu .treeview-menu .treeview-menu {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+/* CONTENT WRAPPER */
+.content-wrapper, .right-side, .main-footer {
+    margin-right: 230px;
+    margin-left: 0;
+    transition: margin-right 0.3s ease 0s;
+}
