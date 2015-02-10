@@ -1,10 +1,27 @@
+@font-face{
+    font-family: BMitra;
+    src: url('../../fonts/BMitra.eot');
+    src: url('../../fonts/BMitra.eot') format("embedded-opentype"),
+         url('../../fonts/BMitra.woff') format("woff"),
+         url('../../fonts/BMitra.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: "BMitra", Tahoma, Arial;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
 /* HEADER */
+.main-header {
+    line-height: 1.1;
+}
 .main-header .logo {
     float: right;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 50px;
+    font-family: "BMitra", Tahoma, Arial;
+    font-size: 26px;
+    font-weight: 600;
 }
 .main-header > .navbar {
     margin-left: 0;
@@ -52,13 +69,14 @@
 .user-panel > .info > a {
     padding-right: 0;
     padding-left: 5px;
+    font-size: 14px;
 }
 .user-panel > .info > a > .fa, .user-panel > .info > a > .ion, .user-panel > .info > a > .glyphicon {
     margin-right: 0;
     margin-left: 3px;
 }
 .sidebar-menu li.header {
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 25px 10px 15px;
 }
 .sidebar-menu li > a > .fa-angle-left {
@@ -73,6 +91,7 @@
 }
 .sidebar-menu .treeview-menu > li > a {
     padding: 5px 15px 5px 5px;
+    font-size: 17px;
 }
 .sidebar-menu > li .label, .sidebar-menu > li .badge {
     margin-right: 0;
@@ -102,9 +121,26 @@
     margin-left: 5px;
     margin-right: 0;
 }
+.content-header > h1 {
+    font-size: 30px;
+}
 
 /* BOX */
 .box-header > .box-tools {
     right: auto;
     left: 10px;
+}
+.box-header .box-title {
+    font-size: 22px;
+}
+.content-header > .breadcrumb {
+    font-size: 16px;
+}
+
+/* GENERAL */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "BMitra", Tahoma, Arial;
+}
+.form-control {
+    font-size: 16px;
 }
