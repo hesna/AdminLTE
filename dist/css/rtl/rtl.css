@@ -55,6 +55,11 @@ body{
     right: auto;
     left: 0;
 }
+.navbar-nav > .user-menu .user-image {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
 
 /* MAIN SIDEBAR */
 .main-sidebar, .left-side {
